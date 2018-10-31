@@ -2,13 +2,13 @@
 
 In this app show, youtube videos embedded in Ionic 3 Application. Application show two methods (iframes, Object) to implement embded videos. DomSanitizer is also implemented for safe Url and Cross-site Scripting (XSS).
 
-<center><img src="view.gif" alt="app"></center>
+<img src="view.gif" alt="app">
 
 
 ## Embed Youtube Video using Iframe
 
 ```
-<iframe allowscriptaccess="always" [src]="url" width="100%" height="250px" frameborder="0" allowfullscreen=""></iframe>
+<iframe allowscriptaccess="always" [src]="url" frameborder="0" allowfullscreen=""></iframe>
 ```
 
 ## Embed Youtube Video Without using Iframe
